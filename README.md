@@ -1,439 +1,368 @@
-<template>
-  <div class="min-h-screen bg-gradient-to-br from-gray-50 to-white">
-    <!-- Back Button -->
-    <div class="fixed top-6 left-6 z-50">
-      <router-link
-        to="/"
-        class="flex items-center gap-2 text-[#2e8b57] hover:text-[#246d43] font-semibold transition-all hover:gap-3 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-lg shadow-md hover:shadow-lg"
-      >
-        <ArrowLeft :size="20" />
-        <span>Back to Home</span>
-      </router-link>
-    </div>
+<div align="center">
 
-    <!-- Header -->
-    <div class="relative bg-gradient-to-r from-[#2e8b57] to-[#246d43] text-white py-20 overflow-hidden">
-      <div class="absolute inset-0 opacity-10">
-        <div class="absolute inset-0" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 40px 40px;"></div>
-      </div>
-      
-      <div class="relative container mx-auto max-w-4xl px-6 text-center">
-        <div class="flex justify-center mb-6">
-          <div class="w-20 h-20 rounded-full bg-white/10 backdrop-blur-sm flex items-center justify-center border-2 border-white/30 shadow-2xl">
-            <Cookie :size="40" class="text-white" />
-          </div>
-        </div>
-        <h1 class="text-4xl md:text-5xl font-bold mb-4">Cookie Policy</h1>
-        <p class="text-lg text-white/90">Last updated: {{ currentDate }}</p>
-      </div>
-    </div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=EverbestDev&fontSize=50&fontAlignY=35&animation=twinkling&fontColor=gradient" />
 
-    <!-- Content -->
-    <div class="container mx-auto max-w-4xl px-6 py-16">
-      <div class="bg-white rounded-2xl shadow-xl p-8 md:p-12 border border-gray-100">
-        
-        <!-- Introduction -->
-        <div class="mb-12 p-6 bg-gradient-to-r from-[#2e8b57]/5 to-[#246d43]/5 rounded-xl border-l-4 border-[#2e8b57]">
-          <p class="text-gray-700 leading-relaxed text-lg">
-            At E-Attendance, we believe in transparency and your right to privacy. This Cookie Policy explains what cookies are, how we use them, and the choices you have regarding their use. We are committed to protecting your personal information and your right to privacy.
-          </p>
-        </div>
+# 👋 Hi, I'm EverbestDev
 
-        <!-- What Are Cookies -->
-        <section class="mb-10">
-          <div class="flex items-center gap-3 mb-4">
-            <div class="w-10 h-10 rounded-full bg-[#2e8b57]/10 flex items-center justify-center">
-              <Info :size="20" class="text-[#2e8b57]" />
-            </div>
-            <h2 class="text-2xl font-bold text-gray-800">What Are Cookies</h2>
-          </div>
-          <p class="text-gray-600 leading-relaxed mb-4">
-            Cookies are small text files that are placed on your device (computer, smartphone, or tablet) when you visit a website. They are widely used to make websites work more efficiently and provide a better user experience. Cookies allow websites to recognize your device and remember information about your visit, such as your preferred language and other settings.
-          </p>
-          <p class="text-gray-600 leading-relaxed">
-            These files contain small amounts of data and are stored in your web browser. They help us understand how you interact with our service, remember your preferences, and improve your overall experience with E-Attendance.
-          </p>
-        </section>
+### 🚀 MERN Stack Developer | Architecting Scalable, Full-Stack Web Solutions
 
-        <!-- How We Use Cookies -->
-        <section class="mb-10">
-          <div class="flex items-center gap-3 mb-6">
-            <div class="w-10 h-10 rounded-full bg-[#2e8b57]/10 flex items-center justify-center">
-              <CheckCircle2 :size="20" class="text-[#2e8b57]" />
-            </div>
-            <h2 class="text-2xl font-bold text-gray-800">How We Use Cookies</h2>
-          </div>
-          <p class="text-gray-600 leading-relaxed mb-6">
-            When you use and access E-Attendance, we may place a number of cookie files in your web browser. We use cookies for the following purposes to enhance your experience and improve our service:
-          </p>
-          <div class="space-y-4">
-            <div class="group p-6 bg-gradient-to-br from-white to-gray-50 rounded-xl border border-gray-200 hover:border-[#2e8b57]/30 hover:shadow-lg transition-all duration-300">
-              <div class="flex items-start gap-4">
-                <div class="p-3 bg-[#2e8b57]/10 rounded-lg group-hover:bg-[#2e8b57]/20 transition-colors">
-                  <Lock :size="24" class="text-[#2e8b57]" />
-                </div>
-                <div class="flex-1">
-                  <h3 class="font-bold text-gray-800 text-lg mb-2">Essential Cookies</h3>
-                  <p class="text-gray-600 mb-3">These cookies are strictly necessary for the operation of our service. They enable core functionality such as security, network management, and accessibility.</p>
-                  <div class="flex flex-wrap gap-2">
-                    <span class="px-3 py-1 bg-[#2e8b57]/10 text-[#2e8b57] text-xs rounded-full font-medium">Authentication</span>
-                    <span class="px-3 py-1 bg-[#2e8b57]/10 text-[#2e8b57] text-xs rounded-full font-medium">Security</span>
-                    <span class="px-3 py-1 bg-[#2e8b57]/10 text-[#2e8b57] text-xs rounded-full font-medium">Session Management</span>
-                  </div>
-                </div>
-              </div>
-            </div>
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
 
-            <div class="group p-6 bg-gradient-to-br from-white to-gray-50 rounded-xl border border-gray-200 hover:border-[#2e8b57]/30 hover:shadow-lg transition-all duration-300">
-              <div class="flex items-start gap-4">
-                <div class="p-3 bg-[#2e8b57]/10 rounded-lg group-hover:bg-[#2e8b57]/20 transition-colors">
-                  <BarChart3 :size="24" class="text-[#2e8b57]" />
-                </div>
-                <div class="flex-1">
-                  <h3 class="font-bold text-gray-800 text-lg mb-2">Analytics & Performance Cookies</h3>
-                  <p class="text-gray-600 mb-3">These cookies help us understand how visitors interact with our service by collecting and reporting information anonymously. This helps us improve the functionality and user experience.</p>
-                  <div class="flex flex-wrap gap-2">
-                    <span class="px-3 py-1 bg-[#2e8b57]/10 text-[#2e8b57] text-xs rounded-full font-medium">Usage Analytics</span>
-                    <span class="px-3 py-1 bg-[#2e8b57]/10 text-[#2e8b57] text-xs rounded-full font-medium">Performance Monitoring</span>
-                    <span class="px-3 py-1 bg-[#2e8b57]/10 text-[#2e8b57] text-xs rounded-full font-medium">Error Tracking</span>
-                  </div>
-                </div>
-              </div>
-            </div>
+<p>
+  <a href="mailto:theeverbeststudios@gmail.com">
+    <img src="https://img.shields.io/badge/Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://linkedin.com/in/everbest-studios">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://github.com/EverbestDev">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+</p>
 
-            <div class="group p-6 bg-gradient-to-br from-white to-gray-50 rounded-xl border border-gray-200 hover:border-[#2e8b57]/30 hover:shadow-lg transition-all duration-300">
-              <div class="flex items-start gap-4">
-                <div class="p-3 bg-[#2e8b57]/10 rounded-lg group-hover:bg-[#2e8b57]/20 transition-colors">
-                  <Settings2 :size="24" class="text-[#2e8b57]" />
-                </div>
-                <div class="flex-1">
-                  <h3 class="font-bold text-gray-800 text-lg mb-2">Functional & Preference Cookies</h3>
-                  <p class="text-gray-600 mb-3">These cookies enable the service to provide enhanced functionality and personalization. They remember your preferences and choices to provide a more personalized experience.</p>
-                  <div class="flex flex-wrap gap-2">
-                    <span class="px-3 py-1 bg-[#2e8b57]/10 text-[#2e8b57] text-xs rounded-full font-medium">Language Settings</span>
-                    <span class="px-3 py-1 bg-[#2e8b57]/10 text-[#2e8b57] text-xs rounded-full font-medium">Theme Preferences</span>
-                    <span class="px-3 py-1 bg-[#2e8b57]/10 text-[#2e8b57] text-xs rounded-full font-medium">User Preferences</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+<img src="https://komarev.com/ghpvc/?username=EverbestDev&label=Profile%20Views&color=blueviolet&style=for-the-badge" alt="Profile Views" />
 
-        <!-- Third-Party Cookies -->
-        <section class="mb-10">
-          <div class="flex items-center gap-3 mb-6">
-            <div class="w-10 h-10 rounded-full bg-[#2e8b57]/10 flex items-center justify-center">
-              <Shield :size="20" class="text-[#2e8b57]" />
-            </div>
-            <h2 class="text-2xl font-bold text-gray-800">Third-Party Cookies</h2>
-          </div>
-          <p class="text-gray-600 leading-relaxed mb-4">
-            In addition to our own cookies, we may also use various third-party cookies to report usage statistics of the service and deliver advertisements on and through the service. These third-party services have their own privacy policies addressing how they use such information.
-          </p>
-          <div class="bg-amber-50 border-l-4 border-amber-400 p-6 rounded-lg">
-            <div class="flex items-start gap-3">
-              <AlertCircle :size="20" class="text-amber-600 mt-0.5 flex-shrink-0" />
-              <div>
-                <p class="font-semibold text-amber-900 mb-2">Important Note</p>
-                <p class="text-amber-800 text-sm leading-relaxed">
-                  We do not have access to or control over third-party cookies. We encourage you to review the privacy policies of these third-party services for more information about their practices.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;MERN+Stack+Specialist;Problem+Solver;Continuous+Learner" alt="Typing SVG" />
 
-        <!-- Cookie Duration -->
-        <section class="mb-10">
-          <div class="flex items-center gap-3 mb-6">
-            <div class="w-10 h-10 rounded-full bg-[#2e8b57]/10 flex items-center justify-center">
-              <Clock :size="20" class="text-[#2e8b57]" />
-            </div>
-            <h2 class="text-2xl font-bold text-gray-800">Cookie Duration</h2>
-          </div>
-          <p class="text-gray-600 leading-relaxed mb-6">
-            Different cookies have different lifespans. Understanding cookie duration helps you make informed decisions about your privacy:
-          </p>
-          <div class="grid md:grid-cols-2 gap-6">
-            <div class="group p-6 bg-gradient-to-br from-blue-50 to-blue-100/50 rounded-xl border border-blue-200 hover:shadow-lg transition-all">
-              <div class="flex items-center gap-3 mb-3">
-                <div class="relative w-16 h-16 rounded-lg overflow-hidden bg-blue-500 flex items-center justify-center group-hover:scale-110 transition-transform">
-                  <img src="https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=400&fit=crop" alt="Session Cookies" class="w-full h-full object-cover opacity-20" />
-                  <Zap :size="24" class="text-white absolute" />
-                </div>
-                <h3 class="font-bold text-gray-800 text-lg">Session Cookies</h3>
-              </div>
-              <p class="text-gray-600 text-sm leading-relaxed">
-                Temporary cookies that are deleted when you close your browser. They help maintain your session while navigating through our service.
-              </p>
-            </div>
-            <div class="group p-6 bg-gradient-to-br from-purple-50 to-purple-100/50 rounded-xl border border-purple-200 hover:shadow-lg transition-all">
-              <div class="flex items-center gap-3 mb-3">
-                <div class="relative w-16 h-16 rounded-lg overflow-hidden bg-purple-500 flex items-center justify-center group-hover:scale-110 transition-transform">
-                  <img src="https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=400&h=400&fit=crop" alt="Persistent Cookies" class="w-full h-full object-cover opacity-20" />
-                  <Calendar :size="24" class="text-white absolute" />
-                </div>
-                <h3 class="font-bold text-gray-800 text-lg">Persistent Cookies</h3>
-              </div>
-              <p class="text-gray-600 text-sm leading-relaxed">
-                Remain on your device for a set period or until you delete them. They remember your preferences and settings for future visits.
-              </p>
-            </div>
-          </div>
-        </section>
+</div>
 
-        <!-- Managing Cookie Preferences -->
-        <section class="mb-10">
-          <div class="flex items-center gap-3 mb-6">
-            <div class="w-10 h-10 rounded-full bg-[#2e8b57]/10 flex items-center justify-center">
-              <Settings :size="20" class="text-[#2e8b57]" />
-            </div>
-            <h2 class="text-2xl font-bold text-gray-800">Managing Your Cookie Preferences</h2>
-          </div>
-          <p class="text-gray-600 leading-relaxed mb-6">
-            You have the right to decide whether to accept or reject cookies. You can exercise your cookie rights by setting your preferences in your browser settings. Most web browsers are set to accept cookies by default, but you can adjust your browser settings to remove or reject cookies if you prefer.
-          </p>
-          
-          <div class="bg-gradient-to-br from-[#2e8b57]/5 to-[#246d43]/5 rounded-xl p-6 mb-6 border border-[#2e8b57]/20">
-            <h3 class="font-bold text-gray-800 mb-4 flex items-center gap-2">
-              <Globe :size="20" class="text-[#2e8b57]" />
-              Browser-Specific Instructions
-            </h3>
-            <div class="grid md:grid-cols-2 gap-4">
-              <a href="https://support.google.com/chrome/answer/95647" target="_blank" class="flex items-center justify-between p-4 bg-white rounded-lg hover:shadow-md transition-shadow group">
-                <span class="text-gray-700 font-medium">Google Chrome</span>
-                <ExternalLink :size="16" class="text-gray-400 group-hover:text-[#2e8b57]" />
-              </a>
-              <a href="https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop" target="_blank" class="flex items-center justify-between p-4 bg-white rounded-lg hover:shadow-md transition-shadow group">
-                <span class="text-gray-700 font-medium">Mozilla Firefox</span>
-                <ExternalLink :size="16" class="text-gray-400 group-hover:text-[#2e8b57]" />
-              </a>
-              <a href="https://support.apple.com/guide/safari/manage-cookies-sfri11471/mac" target="_blank" class="flex items-center justify-between p-4 bg-white rounded-lg hover:shadow-md transition-shadow group">
-                <span class="text-gray-700 font-medium">Safari</span>
-                <ExternalLink :size="16" class="text-gray-400 group-hover:text-[#2e8b57]" />
-              </a>
-              <a href="https://support.microsoft.com/en-us/microsoft-edge/delete-cookies-in-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09" target="_blank" class="flex items-center justify-between p-4 bg-white rounded-lg hover:shadow-md transition-shadow group">
-                <span class="text-gray-700 font-medium">Microsoft Edge</span>
-                <ExternalLink :size="16" class="text-gray-400 group-hover:text-[#2e8b57]" />
-              </a>
-            </div>
-          </div>
+---
 
-          <div class="bg-red-50 border-l-4 border-red-400 p-6 rounded-lg">
-            <div class="flex items-start gap-3">
-              <AlertTriangle :size="20" class="text-red-600 mt-0.5 flex-shrink-0" />
-              <div>
-                <p class="font-semibold text-red-900 mb-2">Important Considerations</p>
-                <p class="text-red-800 text-sm leading-relaxed mb-2">
-                  Please note that if you delete cookies or refuse to accept them, you might not be able to use all of the features we offer. Specifically, you may experience:
-                </p>
-                <ul class="text-red-800 text-sm space-y-1 ml-4 list-disc">
-                  <li>Difficulty staying logged in to your account</li>
-                  <li>Loss of personalized settings and preferences</li>
-                  <li>Reduced functionality on certain pages</li>
-                  <li>Need to re-enter information more frequently</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
+## 🧑‍💻 **About Me**
 
-        <!-- Updates to Policy -->
-        <section class="mb-10">
-          <div class="flex items-center gap-3 mb-6">
-            <div class="w-10 h-10 rounded-full bg-[#2e8b57]/10 flex items-center justify-center">
-              <FileText :size="20" class="text-[#2e8b57]" />
-            </div>
-            <h2 class="text-2xl font-bold text-gray-800">Updates to This Cookie Policy</h2>
-          </div>
-          <p class="text-gray-600 leading-relaxed mb-4">
-            We may update our Cookie Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. When we make significant changes, we will notify you by:
-          </p>
-          <div class="space-y-3">
-            <div class="flex items-start gap-3 p-4 bg-gray-50 rounded-lg">
-              <CheckCircle2 :size="20" class="text-[#2e8b57] flex-shrink-0 mt-0.5" />
-              <p class="text-gray-600">Updating the "Last updated" date at the top of this Cookie Policy</p>
-            </div>
-            <div class="flex items-start gap-3 p-4 bg-gray-50 rounded-lg">
-              <CheckCircle2 :size="20" class="text-[#2e8b57] flex-shrink-0 mt-0.5" />
-              <p class="text-gray-600">Posting a notice on our homepage or within the application</p>
-            </div>
-            <div class="flex items-start gap-3 p-4 bg-gray-50 rounded-lg">
-              <CheckCircle2 :size="20" class="text-[#2e8b57] flex-shrink-0 mt-0.5" />
-              <p class="text-gray-600">Sending an email notification if you have provided your email address</p>
-            </div>
-          </div>
-          <p class="text-gray-600 leading-relaxed mt-4">
-            We encourage you to periodically review this Cookie Policy to stay informed about how we are using cookies and protecting your information.
-          </p>
-        </section>
+<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223156-0cbdaba9-3128-4d8e-8719-b6b4cf741b67.gif">
 
-        <!-- FAQ Section -->
-        <section class="mb-10">
-          <div class="flex items-center gap-3 mb-6">
-            <div class="w-10 h-10 rounded-full bg-[#2e8b57]/10 flex items-center justify-center">
-              <HelpCircle :size="20" class="text-[#2e8b57]" />
-            </div>
-            <h2 class="text-2xl font-bold text-gray-800">Frequently Asked Questions</h2>
-          </div>
-          <div class="space-y-4">
-            <details class="group bg-white border border-gray-200 rounded-lg overflow-hidden hover:border-[#2e8b57]/30 transition-colors">
-              <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-gray-800 hover:text-[#2e8b57] transition-colors">
-                <span>Do I have to accept cookies to use E-Attendance?</span>
-                <ChevronDown :size="20" class="text-gray-400 group-open:rotate-180 transition-transform" />
-              </summary>
-              <div class="px-6 pb-6 text-gray-600 leading-relaxed border-t border-gray-100 pt-4">
-                Essential cookies are required for the basic functionality of our service. However, you can choose to opt-out of non-essential cookies such as analytics and preference cookies. Please note that disabling certain cookies may limit your experience on our platform.
-              </div>
-            </details>
+```javascript
+const everbestDev = {
+    role: "Full-Stack Developer",
+    currentFocus: ["MERN Stack", "Cloud Architecture", "Web Security"],
+    languages: ["JavaScript", "TypeScript", "HTML5", "CSS3"],
+    passion: "Building scalable solutions that solve real-world problems",
+    philosophy: "Clean code is not written by following a set of rules. 
+                 You know you're working on clean code when each routine 
+                 turns out to be pretty much what you expected.",
+    location: "Nigeria 🇳🇬",
+    openToWork: true
+};
+```
 
-            <details class="group bg-white border border-gray-200 rounded-lg overflow-hidden hover:border-[#2e8b57]/30 transition-colors">
-              <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-gray-800 hover:text-[#2e8b57] transition-colors">
-                <span>How long do cookies stay on my device?</span>
-                <ChevronDown :size="20" class="text-gray-400 group-open:rotate-180 transition-transform" />
-              </summary>
-              <div class="px-6 pb-6 text-gray-600 leading-relaxed border-t border-gray-100 pt-4">
-                The duration varies depending on the type of cookie. Session cookies are deleted when you close your browser, while persistent cookies remain on your device for a predetermined period (ranging from days to years) or until you manually delete them.
-              </div>
-            </details>
+I'm a dedicated **MERN Stack Developer** with a passion for creating **functional, high-performance, and scalable web applications**. My approach combines technical excellence with user-centric design, ensuring every project delivers both robust functionality and exceptional user experience.
 
-            <details class="group bg-white border border-gray-200 rounded-lg overflow-hidden hover:border-[#2e8b57]/30 transition-colors">
-              <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-gray-800 hover:text-[#2e8b57] transition-colors">
-                <span>Can cookies contain viruses or malware?</span>
-                <ChevronDown :size="20" class="text-gray-400 group-open:rotate-180 transition-transform" />
-              </summary>
-              <div class="px-6 pb-6 text-gray-600 leading-relaxed border-t border-gray-100 pt-4">
-                No, cookies are simple text files and cannot contain viruses or execute programs. They cannot install malware on your device or access your hard drive. However, they can be used to track your browsing behavior across websites.
-              </div>
-            </details>
+---
 
-            <details class="group bg-white border border-gray-200 rounded-lg overflow-hidden hover:border-[#2e8b57]/30 transition-colors">
-              <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-gray-800 hover:text-[#2e8b57] transition-colors">
-                <span>Will deleting cookies affect my saved data on E-Attendance?</span>
-                <ChevronDown :size="20" class="text-gray-400 group-open:rotate-180 transition-transform" />
-              </summary>
-              <div class="px-6 pb-6 text-gray-600 leading-relaxed border-t border-gray-100 pt-4">
-                No, your account data and attendance records are securely stored on our servers and are not affected by cookie deletion. However, you may need to log in again and re-configure your preferences after deleting cookies.
-              </div>
-            </details>
-          </div>
-        </section>
+## 🛠️ **Technology Arsenal**
 
-        <!-- Contact Section -->
-        <section>
-          <div class="flex items-center gap-3 mb-6">
-            <div class="w-10 h-10 rounded-full bg-[#2e8b57]/10 flex items-center justify-center">
-              <Mail :size="20" class="text-[#2e8b57]" />
-            </div>
-            <h2 class="text-2xl font-bold text-gray-800">Contact Us</h2>
-          </div>
-          <p class="text-gray-600 leading-relaxed mb-6">
-            If you have any questions, concerns, or requests regarding our Cookie Policy or how we handle cookies, we're here to help. Our support team is committed to addressing your privacy concerns promptly and transparently.
-          </p>
-          <div class="bg-gradient-to-br from-[#2e8b57]/10 to-[#246d43]/10 rounded-xl p-8 border border-[#2e8b57]/30">
-            <div class="grid md:grid-cols-2 gap-6">
-              <div class="flex items-start gap-4">
-                <div class="p-3 bg-white rounded-lg shadow-sm">
-                  <Mail :size="24" class="text-[#2e8b57]" />
-                </div>
-                <div>
-                  <p class="font-semibold text-gray-800 mb-1">Email Support</p>
-                  <a href="mailto:support@eattendance.com" class="text-[#2e8b57] hover:text-[#246d43] transition-colors font-medium">
-                    support@eattendance.com
-                  </a>
-                  <p class="text-sm text-gray-600 mt-1">Response within 24-48 hours</p>
-                </div>
-              </div>
-              
-              <div class="flex items-start gap-4">
-                <div class="p-3 bg-white rounded-lg shadow-sm">
-                  <MessageCircle :size="24" class="text-[#2e8b57]" />
-                </div>
-                <div>
-                  <p class="font-semibold text-gray-800 mb-1">Live Chat</p>
-                  <p class="text-gray-600">Available Monday - Friday</p>
-                  <p class="text-sm text-gray-600 mt-1">9:00 AM - 6:00 PM (WAT)</p>
-                </div>
-              </div>
-            </div>
-            
-            <div class="mt-6 pt-6 border-t border-[#2e8b57]/20">
-              <p class="text-sm text-gray-600 leading-relaxed">
-                <strong class="text-gray-800">Data Protection Officer:</strong> For specific privacy and data protection inquiries, you can reach our Data Protection Officer at 
-                <a href="mailto:dpo@eattendance.com" class="text-[#2e8b57] hover:text-[#246d43] transition-colors font-medium"> dpo@eattendance.com</a>
-              </p>
-            </div>
-          </div>
-        </section>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100">
+<img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100">
+<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="100">
+<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="100">
+<img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="100">
+<img src="https://user-images.githubusercontent.com/74038190/212280805-9bcb336b-8c55-46a8-abf8-ff286ab55472.gif" width="100">
+<img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="100">
+</div>
 
-        <!-- Footer Note -->
-        <div class="mt-12 pt-8 border-t border-gray-200">
-          <div class="bg-gray-50 rounded-xl p-6 text-center">
-            <div class="flex justify-center mb-3">
-              <div class="p-3 bg-white rounded-full shadow-sm">
-                <Shield :size="24" class="text-[#2e8b57]" />
-              </div>
-            </div>
-            <p class="text-gray-600 text-sm leading-relaxed max-w-2xl mx-auto">
-              Your privacy matters to us. This Cookie Policy is part of our commitment to transparency and protecting your personal information. 
-              For more details about how we protect your data, please review our 
-              <router-link to="/privacy-policy" class="text-[#2e8b57] hover:text-[#246d43] font-semibold transition-colors">Privacy Policy</router-link> and 
-              <router-link to="/terms-of-service" class="text-[#2e8b57] hover:text-[#246d43] font-semibold transition-colors">Terms of Service</router-link>.
-            </p>
-          </div>
-        </div>
+<table>
+<tr>
+<td valign="top" width="50%">
 
-      </div>
-    </div>
-  </div>
-</template>
+### **Frontend**
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Redux](https://img.shields.io/badge/-Redux-764ABC?style=flat-square&logo=redux&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/-Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
-<script setup>
-import { ref, computed } from 'vue';
-import { 
-  ArrowLeft, 
-  Cookie, 
-  Info, 
-  Lock, 
-  BarChart3, 
-  Settings2, 
-  Settings,
-  Mail,
-  CheckCircle2,
-  Shield,
-  AlertCircle,
-  Clock,
-  Zap,
-  Calendar,
-  Globe,
-  ExternalLink,
-  AlertTriangle,
-  FileText,
-  HelpCircle,
-  ChevronDown,
-  MessageCircle
-} from "lucide-vue-next";
+</td>
+<td valign="top" width="50%">
 
-const currentDate = computed(() => {
-  return new Date().toLocaleDateString('en-US', { 
-    year: 'numeric', 
-    month: 'long', 
-    day: 'numeric' 
-  });
-});
-</script>
+### **Backend & Database**
+![NodeJS](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Mongoose](https://img.shields.io/badge/-Mongoose-880000?style=flat-square&logo=mongoose&logoColor=white)
+![JWT](https://img.shields.io/badge/-JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+![REST API](https://img.shields.io/badge/-REST%20API-009688?style=flat-square&logo=fastapi&logoColor=white)
 
-<style scoped>
-section {
-  scroll-margin-top: 2rem;
-}
+</td>
+</tr>
+<tr>
+<td valign="top" width="50%">
 
-details summary::-webkit-details-marker {
-  display: none;
-}
+### **Tools & Workflow**
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![npm](https://img.shields.io/badge/-npm-CB3837?style=flat-square&logo=npm&logoColor=white)
 
-details[open] summary {
-  margin-bottom: 0;
-}
-</style>
+</td>
+<td valign="top" width="50%">
+
+### **Design & Prototyping**
+![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![Canva](https://img.shields.io/badge/-Canva-00C4CC?style=flat-square&logo=canva&logoColor=white)
+![Responsive Design](https://img.shields.io/badge/-Responsive%20Design-4285F4?style=flat-square&logo=google-chrome&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+---
+
+## 💼 **Featured Projects**
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100">
+</div>
+
+<table>
+<tr>
+<td width="50%">
+
+### 🌐 **ILI-Nigeria Platform**
+**Full-Stack MERN Application**
+
+A comprehensive multilingual management platform designed for a professional translation and interpretation company.
+
+**Key Features:**
+- 🔐 Secure JWT Authentication
+- 🌍 Multi-language Support
+- 📊 Admin Dashboard
+- 📱 Responsive Design
+- ⚡ Real-time Updates
+
+**Tech Stack:** React • Node.js • Express • MongoDB • Tailwind CSS
+
+🚧 **Status:** In Active Development
+
+</td>
+<td width="50%">
+
+### 🎓 **WeTest-Edu**
+**Interactive Learning Platform**
+
+An engaging quiz platform inspired by Kahoot!, designed to make learning interactive and fun.
+
+**Key Features:**
+- ⏱️ Real-time Quizzes
+- 🎯 Score Tracking
+- 🎨 Modern UI/UX
+- 📊 Analytics Dashboard
+- 🏆 Leaderboard System
+
+**Tech Stack:** HTML5 • CSS3 • Vanilla JavaScript
+
+🚧 **Status:** In Active Development
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 📝 **Functional Quiz App**
+**Dynamic Quiz Application**
+
+A fully functional quiz application with custom animations and comprehensive score tracking.
+
+**Key Features:**
+- ✨ Custom Animations
+- 📈 Progress Tracking
+- 🎯 Dynamic Questions
+- 💾 Local Storage
+- 🎨 Smooth Transitions
+
+**Tech Stack:** HTML5 • JavaScript • CSS3
+
+✅ **Status:** Completed
+
+</td>
+<td width="50%">
+
+### 🚀 **More Coming Soon...**
+
+Currently working on exciting new projects involving:
+- Cloud deployment with AWS/Vercel
+- Microservices architecture
+- Advanced state management
+- Real-time collaboration features
+
+**Stay tuned!** ⭐
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🎯 **Current Development Focus**
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
+</div>
+
+```mermaid
+mindmap
+  root((Learning Path))
+    Advanced React
+      Custom Hooks
+      Performance Optimization
+      Context API Patterns
+      Server Components
+    Backend Mastery
+      Microservices
+      GraphQL
+      WebSockets
+      Caching Strategies
+    Security
+      OAuth 2.0
+      API Rate Limiting
+      Encryption
+      CORS Policies
+    DevOps & Cloud
+      Docker
+      CI/CD Pipelines
+      AWS/Azure
+      Serverless Architecture
+```
+
+<details>
+<summary><b>📚 Detailed Learning Roadmap</b></summary>
+
+### **Q1 2025 Goals**
+- ✅ Master React Performance Optimization
+- 🔄 Implement Microservices Architecture
+- 🔄 Deploy Production-Ready MERN Apps
+- 📅 Learn Docker & Containerization
+- 📅 Explore TypeScript Advanced Patterns
+
+### **Q2 2025 Goals**
+- 📅 Cloud Architecture (AWS/Azure)
+- 📅 GraphQL Integration
+- 📅 Testing (Jest, React Testing Library)
+- 📅 CI/CD Pipeline Setup
+
+</details>
+
+---
+
+## 📊 **GitHub Analytics**
+
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
+
+<img src="https://github-readme-stats.vercel.app/api?username=EverbestDev&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=3B82F6&icon_color=3B82F6&text_color=FFFFFF&rank_icon=github" alt="GitHub Stats" height="180px" />
+
+<img src="https://streak-stats.demolab.com?user=EverbestDev&theme=radical&hide_border=true&background=0D1117&ring=3B82F6&fire=3B82F6&currStreakLabel=3B82F6" alt="GitHub Streak" height="180px" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EverbestDev&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=FFFFFF&langs_count=8" alt="Top Languages" height="180px" />
+
+</div>
+
+---
+
+## 📈 **Contribution Graph**
+
+<div align="center">
+
+[![Everbest's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=EverbestDev&theme=react-dark&hide_border=true&area=true)](https://github.com/EverbestDev)
+
+</div>
+
+---
+
+## 🏆 **GitHub Trophies**
+
+<div align="center">
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=EverbestDev&theme=radical&no-frame=true&no-bg=true&row=1&column=7)](https://github.com/EverbestDev)
+
+</div>
+
+---
+
+## 💡 **Development Philosophy**
+
+> **"Code is like humor. When you have to explain it, it's bad."** – Cory House
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+### 🎯 **Quality First**
+Writing clean, maintainable code that stands the test of time
+
+</td>
+<td width="33%" align="center">
+
+### 🚀 **User-Centric**
+Building solutions that prioritize user experience and accessibility
+
+</td>
+<td width="33%" align="center">
+
+### 📚 **Continuous Learning**
+Staying updated with latest technologies and best practices
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🤝 **Let's Connect & Collaborate**
+
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" alt="Fire" width="100" />
+
+I'm always open to interesting conversations and collaboration opportunities!
+
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+### 📧 **Email**
+[theeverbeststudios@gmail.com](mailto:theeverbeststudios@gmail.com)
+
+</td>
+<td align="center" width="33%">
+
+### 💼 **LinkedIn**
+[Everbest Studios](https://linkedin.com/in/everbest-studios)
+
+</td>
+<td align="center" width="33%">
+
+### 🐙 **GitHub**
+[@EverbestDev](https://github.com/EverbestDev)
+
+</td>
+</tr>
+</table>
+
+### **Open to:**
+✨ Freelance Projects | 💼 Full-Time Opportunities | 🤝 Open Source Collaboration | 📖 Tech Discussions
+
+</div>
+
+---
+
+<div align="center">
+
+### 💭 **Quote of the Day**
+
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+
+---
+
+**✨ Thanks for visiting! Feel free to star ⭐ my repositories if you find them interesting!**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
+
+</div>
