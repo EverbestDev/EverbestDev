@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Hi, I'm Everbest
+# 👋 Hi, I'm EverbestDev
 
 ### 🚀 MERN Stack Developer | Architecting Scalable, Full-Stack Web Solutions
 
@@ -16,7 +16,7 @@
   </a>
 </p>
 
-<img src="https://komarev.com/ghpvc/?username=Everbest&label=Profile%20Views&color=blueviolet&style=for-the-badge" alt="Profile Views" />
+<img src="https://komarev.com/ghpvc/?username=EverbestDev&label=Profile%20Views&color=blueviolet&style=for-the-badge" alt="Profile Views" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;MERN+Stack+Specialist;Problem+Solver;Continuous+Learner" alt="Typing SVG" />
 
@@ -27,7 +27,7 @@
 ## 🧑‍💻 **About Me**
 
 ```javascript
-const everbest = {
+const everbestDev = {
     role: "Full-Stack Developer",
     currentFocus: ["MERN Stack", "Cloud Architecture", "Web Security"],
     languages: ["JavaScript", "TypeScript", "HTML5", "CSS3"],
@@ -228,11 +228,11 @@ mindmap
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Everbest&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=3B82F6&icon_color=3B82F6&text_color=FFFFFF" alt="GitHub Stats" height="180px" />
+<img src="https://github-readme-stats.vercel.app/api?username=EverbestDev&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=3B82F6&icon_color=3B82F6&text_color=FFFFFF" alt="GitHub Stats" height="180px" />
 
-<img src="https://streak-stats.demolab.com?user=Everbest&theme=radical&hide_border=true&background=0D1117&ring=3B82F6&fire=3B82F6&currStreakLabel=3B82F6" alt="GitHub Streak" height="180px" />
+<img src="https://streak-stats.demolab.com?user=EverbestDev&theme=radical&hide_border=true&background=0D1117&ring=3B82F6&fire=3B82F6&currStreakLabel=3B82F6" alt="GitHub Streak" height="180px" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Everbest&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=FFFFFF" alt="Top Languages" height="180px" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EverbestDev&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=FFFFFF" alt="Top Languages" height="180px" />
 
 </div>
 
@@ -242,7 +242,7 @@ mindmap
 
 <div align="center">
 
-[![Everbest's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Everbest&theme=react-dark&hide_border=true&area=true)](https://github.com/Everbest)
+[![Everbest's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=EverbestDev&theme=react-dark&hide_border=true&area=true)](https://github.com/EverbestDev)
 
 </div>
 
@@ -252,7 +252,7 @@ mindmap
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=Everbest&theme=radical&no-frame=true&no-bg=true&row=1&column=7)](https://github.com/Everbest)
+[![trophy](https://github-profile-trophy.vercel.app/?username=EverbestDev&theme=radical&no-frame=true&no-bg=true&row=1&column=7)](https://github.com/EverbestDev)
 
 </div>
 
@@ -310,7 +310,7 @@ I'm always open to interesting conversations and collaboration opportunities!
 <td align="center" width="33%">
 
 ### 🐙 **GitHub**
-[@Everbest](https://github.com/Everbest)
+[@EverbestDev](https://github.com/EverbestDev)
 
 </td>
 </tr>
