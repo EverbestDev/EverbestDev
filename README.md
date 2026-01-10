@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=EverbestDev&fontSize=50&fontAlignY=35&animation=twinkling&fontColor[...]"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=EverbestDev&fontSize=50&fontAlignY=35&animation=twinkling&fontColor=gradient" />
 
 # 👋 Hi, I'm EverbestDev
 
@@ -25,7 +25,7 @@
 
 <img src="https://komarev.com/ghpvc/?username=EverbestDev&label=Profile%20Views&color=blueviolet&style=for-the-badge" alt="Profile Views" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;MERN+Stack+Specialist;Proble[...]"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;MERN+Stack+Specialist;Problem+Solver;Continuous+Learner;Open+Source+Enthusiast" alt="Typing SVG" />
 
 </div>
 
@@ -52,7 +52,7 @@ const everbestDev = {
 };
 ```
 
-I'm a dedicated **MERN Stack Developer** with a passion for creating **functional, high-performance, and scalable web applications**. My approach combines technical excellence with user-centric de[...]
+I'm a dedicated **MERN Stack Developer** with a passion for creating **functional, high-performance, and scalable web applications**. My approach combines technical excellence with user-centric design, ensuring every project delivers both robust functionality and exceptional user experience.
 
 🌱 Currently learning **Docker, Kubernetes & Cloud Architecture**  
 💬 Ask me about **React, Node.js, MongoDB, and Full-Stack Development**  
@@ -320,13 +320,13 @@ mindmap
 ### **GitHub Statistics**
 
 <p align="center">
-  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=EverbestDev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true)
-  ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=EverbestDev&theme=tokyonight&hide_border=true)
+  <img src="https://github-readme-stats.vercel.app/api?username=EverbestDev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" width="49%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=EverbestDev&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="49%" />
 </p>
 
 <p align="center">
-  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=EverbestDev&layout=compact&theme=tokyonight&hide_border=true&langs_count=10)
-  ![WakaTime](https://github-readme-stats.vercel.app/api/wakatime?username=EverbestDev&theme=tokyonight&hide_border=true&layout=compact)
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EverbestDev&layout=compact&theme=tokyonight&hide_border=true&langs_count=10&exclude_repo=repo1,repo2" alt="Top Languages" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=EverbestDev&theme=tokyonight&hide_border=true&layout=compact" alt="Coding Activity" width="49%" />
 </p>
 
 </div>
@@ -337,7 +337,7 @@ mindmap
 
 <div align="center">
 
-[![Everbest's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=EverbestDev&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Graph)](ht[...] 
+[![Everbest's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=EverbestDev&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Graph)](https://github.com/EverbestDev)
 
 </div>
 
@@ -347,7 +347,7 @@ mindmap
 
 <div align="center">
 
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=EverbestDev&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&column=7)
+<img src="https://github-profile-trophy.vercel.app/?username=EverbestDev&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&column=7" alt="GitHub Trophies" />
 
 </div>
 
@@ -441,7 +441,7 @@ Node.js     ██████████████████░░░   85
 MongoDB     █████████████████░░░░   80%
 TypeScript  ████████████████░░░░░   75%
 Express     ████████████████░░░░░   75%
-TailwindCSS █████���█████████░░░░░░   70%
+TailwindCSS ███████████████░░░░░░   70%
 Git/GitHub  ██████████████████░░░   85%
 ```
 
@@ -526,11 +526,11 @@ Git/GitHub  ██████████████████░░░   85
 
 ### 💭 **Dev Quote**
 
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote"/>
 
 ### 🎲 **Random Dev Joke**
 
-![Jokes Card](https://readme-jokes.vercel.app/api?theme=tokyonight)
+<img src="https://readme-jokes.vercel.app/api?theme=tokyonight" alt="Jokes Card"/>
 
 </div>
 
