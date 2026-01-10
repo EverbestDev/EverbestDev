@@ -18,11 +18,14 @@
   <a href="https://github.com/EverbestDev">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
+  <a href="https://twitter.com/EverbestDev">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
+  </a>
 </p>
 
 <img src="https://komarev.com/ghpvc/?username=EverbestDev&label=Profile%20Views&color=blueviolet&style=for-the-badge" alt="Profile Views" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;MERN+Stack+Specialist;Problem+Solver;Continuous+Learner" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;MERN+Stack+Specialist;Problem+Solver;Continuous+Learner;Open+Source+Enthusiast" alt="Typing SVG" />
 
 </div>
 
@@ -37,16 +40,23 @@ const everbestDev = {
     role: "Full-Stack Developer",
     currentFocus: ["MERN Stack", "Cloud Architecture", "Web Security"],
     languages: ["JavaScript", "TypeScript", "HTML5", "CSS3"],
+    frameworks: ["React", "Node.js", "Express", "MongoDB"],
     passion: "Building scalable solutions that solve real-world problems",
     philosophy: "Clean code is not written by following a set of rules. 
                  You know you're working on clean code when each routine 
                  turns out to be pretty much what you expected.",
     location: "Nigeria 🇳🇬",
-    openToWork: true
+    timezone: "WAT (GMT+1)",
+    openToWork: true,
+    funFact: "I debug with console.log() and I'm not ashamed! 😄"
 };
 ```
 
 I'm a dedicated **MERN Stack Developer** with a passion for creating **functional, high-performance, and scalable web applications**. My approach combines technical excellence with user-centric design, ensuring every project delivers both robust functionality and exceptional user experience.
+
+🌱 Currently learning **Docker, Kubernetes & Cloud Architecture**  
+💬 Ask me about **React, Node.js, MongoDB, and Full-Stack Development**  
+⚡ Fun fact: **I turn coffee into code!** ☕→💻
 
 ---
 
@@ -66,14 +76,16 @@ I'm a dedicated **MERN Stack Developer** with a passion for creating **functiona
 <tr>
 <td valign="top" width="50%">
 
-### **Frontend**
+### **Frontend Development**
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Redux](https://img.shields.io/badge/-Redux-764ABC?style=flat-square&logo=redux&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/-Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![SASS](https://img.shields.io/badge/-SASS-CC6699?style=flat-square&logo=sass&logoColor=white)
 
 </td>
 <td valign="top" width="50%">
@@ -85,6 +97,7 @@ I'm a dedicated **MERN Stack Developer** with a passion for creating **functiona
 ![Mongoose](https://img.shields.io/badge/-Mongoose-880000?style=flat-square&logo=mongoose&logoColor=white)
 ![JWT](https://img.shields.io/badge/-JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
 ![REST API](https://img.shields.io/badge/-REST%20API-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Socket.io](https://img.shields.io/badge/-Socket.io-010101?style=flat-square&logo=socket.io&logoColor=white)
 
 </td>
 </tr>
@@ -97,13 +110,17 @@ I'm a dedicated **MERN Stack Developer** with a passion for creating **functiona
 ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 ![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 ![npm](https://img.shields.io/badge/-npm-CB3837?style=flat-square&logo=npm&logoColor=white)
+![Webpack](https://img.shields.io/badge/-Webpack-8DD6F9?style=flat-square&logo=webpack&logoColor=black)
+![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 
 </td>
 <td valign="top" width="50%">
 
-### **Design & Prototyping**
+### **Design & Cloud**
 ![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
 ![Canva](https://img.shields.io/badge/-Canva-00C4CC?style=flat-square&logo=canva&logoColor=white)
+![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Netlify](https://img.shields.io/badge/-Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)
 ![Responsive Design](https://img.shields.io/badge/-Responsive%20Design-4285F4?style=flat-square&logo=google-chrome&logoColor=white)
 
 </td>
@@ -130,13 +147,16 @@ A comprehensive multilingual management platform designed for a professional tra
 **Key Features:**
 - 🔐 Secure JWT Authentication
 - 🌍 Multi-language Support
-- 📊 Admin Dashboard
-- 📱 Responsive Design
-- ⚡ Real-time Updates
+- 📊 Admin Dashboard with Analytics
+- 📱 Fully Responsive Design
+- ⚡ Real-time Updates & Notifications
+- 🎨 Modern UI/UX with Tailwind CSS
 
-**Tech Stack:** React • Node.js • Express • MongoDB • Tailwind CSS
+**Tech Stack:** React • Node.js • Express • MongoDB • Tailwind CSS • Redux
 
 🚧 **Status:** In Active Development
+
+[View Demo](#) | [Source Code](#)
 
 </td>
 <td width="50%">
@@ -147,15 +167,18 @@ A comprehensive multilingual management platform designed for a professional tra
 An engaging quiz platform inspired by Kahoot!, designed to make learning interactive and fun.
 
 **Key Features:**
-- ⏱️ Real-time Quizzes
-- 🎯 Score Tracking
-- 🎨 Modern UI/UX
-- 📊 Analytics Dashboard
-- 🏆 Leaderboard System
+- ⏱️ Real-time Quiz Sessions
+- 🎯 Advanced Score Tracking
+- 🎨 Modern & Intuitive UI/UX
+- 📊 Comprehensive Analytics Dashboard
+- 🏆 Dynamic Leaderboard System
+- 👥 Multiplayer Support
 
-**Tech Stack:** HTML5 • CSS3 • Vanilla JavaScript
+**Tech Stack:** HTML5 • CSS3 • Vanilla JavaScript • Local Storage
 
 🚧 **Status:** In Active Development
+
+[View Demo](#) | [Source Code](#)
 
 </td>
 </tr>
@@ -168,32 +191,52 @@ An engaging quiz platform inspired by Kahoot!, designed to make learning interac
 A fully functional quiz application with custom animations and comprehensive score tracking.
 
 **Key Features:**
-- ✨ Custom Animations
-- 📈 Progress Tracking
-- 🎯 Dynamic Questions
-- 💾 Local Storage
-- 🎨 Smooth Transitions
+- ✨ Smooth Custom Animations
+- 📈 Real-time Progress Tracking
+- 🎯 Dynamic Question Loading
+- 💾 Persistent Local Storage
+- 🎨 Responsive Transitions
+- 🔄 Answer Review System
 
-**Tech Stack:** HTML5 • JavaScript • CSS3
+**Tech Stack:** HTML5 • JavaScript • CSS3 • Animation API
 
-✅ **Status:** Completed
+✅ **Status:** Completed & Deployed
+
+[Live Demo](#) | [Source Code](#)
 
 </td>
 <td width="50%">
 
-### 🚀 **More Coming Soon...**
+### 🔐 **Auth System Template**
+**Secure Authentication Boilerplate**
 
-Currently working on exciting new projects involving:
-- Cloud deployment with AWS/Vercel
-- Microservices architecture
-- Advanced state management
-- Real-time collaboration features
+A production-ready authentication system with best security practices.
 
-**Stay tuned!** ⭐
+**Key Features:**
+- 🔒 JWT + Refresh Tokens
+- 📧 Email Verification
+- 🔑 Password Reset Flow
+- 🛡️ CSRF Protection
+- 🚀 Rate Limiting
+- 📱 2FA Support
+
+**Tech Stack:** Node.js • Express • MongoDB • JWT • Bcrypt
+
+✅ **Status:** Completed
+
+[Source Code](#)
 
 </td>
 </tr>
 </table>
+
+<div align="center">
+
+### 🚀 **More Projects Coming Soon...**
+
+Working on exciting projects involving Cloud Deployment, Microservices, Real-time Collaboration & AI Integration!
+
+</div>
 
 ---
 
@@ -205,44 +248,64 @@ Currently working on exciting new projects involving:
 
 ```mermaid
 mindmap
-  root((Learning Path))
+  root((2025 Goals))
     Advanced React
       Custom Hooks
       Performance Optimization
       Context API Patterns
       Server Components
+      Suspense & Concurrent Mode
     Backend Mastery
       Microservices
-      GraphQL
+      GraphQL APIs
       WebSockets
       Caching Strategies
+      Event-Driven Architecture
     Security
       OAuth 2.0
       API Rate Limiting
-      Encryption
-      CORS Policies
+      Data Encryption
+      CORS & HTTPS
+      Security Headers
     DevOps & Cloud
-      Docker
+      Docker Containers
       CI/CD Pipelines
-      AWS/Azure
-      Serverless Architecture
+      AWS Services
+      Kubernetes
+      Serverless Functions
 ```
 
 <details>
-<summary><b>📚 Detailed Learning Roadmap</b></summary>
+<summary><b>📚 Detailed Learning Roadmap 2025</b></summary>
 
-### **Q1 2025 Goals**
+<br>
+
+### **Q1 2025 Goals** ✅
 - ✅ Master React Performance Optimization
+- ✅ Build Production-Ready REST APIs
 - 🔄 Implement Microservices Architecture
-- 🔄 Deploy Production-Ready MERN Apps
-- 📅 Learn Docker & Containerization
+- 🔄 Deploy MERN Apps to Cloud
+- 📅 Master Docker Containerization
 - 📅 Explore TypeScript Advanced Patterns
 
 ### **Q2 2025 Goals**
-- 📅 Cloud Architecture (AWS/Azure)
-- 📅 GraphQL Integration
-- 📅 Testing (Jest, React Testing Library)
-- 📅 CI/CD Pipeline Setup
+- 📅 AWS/Azure Cloud Architecture
+- 📅 GraphQL Integration & Best Practices
+- 📅 Testing (Jest, React Testing Library, Supertest)
+- 📅 CI/CD Pipeline with GitHub Actions
+- 📅 WebSocket & Real-time Features
+
+### **Q3 2025 Goals**
+- 📅 Kubernetes Orchestration
+- 📅 Serverless Architecture (AWS Lambda)
+- 📅 Redis Caching Implementation
+- 📅 Message Queues (RabbitMQ/Kafka)
+
+### **Q4 2025 Goals**
+- 📅 AI/ML Integration in Web Apps
+- 📅 Advanced System Design
+- 📅 Open Source Contributions
+- 📅 Tech Blog & Content Creation
 
 </details>
 
@@ -254,11 +317,17 @@ mindmap
 
 <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
 
-<img src="https://github-readme-stats.vercel.app/api?username=EverbestDev&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=3B82F6&icon_color=3B82F6&text_color=FFFFFF&rank_icon=github" alt="GitHub Stats" height="180px" />
+### **GitHub Statistics**
 
-<img src="https://streak-stats.demolab.com?user=EverbestDev&theme=radical&hide_border=true&background=0D1117&ring=3B82F6&fire=3B82F6&currStreakLabel=3B82F6" alt="GitHub Streak" height="180px" />
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=EverbestDev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" width="49%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=EverbestDev&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="49%" />
+</p>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EverbestDev&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=FFFFFF&langs_count=8" alt="Top Languages" height="180px" />
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EverbestDev&layout=compact&theme=tokyonight&hide_border=true&langs_count=10&exclude_repo=repo1,repo2" alt="Top Languages" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=EverbestDev&theme=tokyonight&hide_border=true&layout=compact" alt="Coding Activity" width="49%" />
+</p>
 
 </div>
 
@@ -268,7 +337,7 @@ mindmap
 
 <div align="center">
 
-[![Everbest's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=EverbestDev&theme=react-dark&hide_border=true&area=true)](https://github.com/EverbestDev)
+[![Everbest's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=EverbestDev&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Graph)](https://github.com/EverbestDev)
 
 </div>
 
@@ -278,7 +347,43 @@ mindmap
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=EverbestDev&theme=radical&no-frame=true&no-bg=true&row=1&column=7)](https://github.com/EverbestDev)
+<img src="https://github-profile-trophy.vercel.app/?username=EverbestDev&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&column=7" alt="GitHub Trophies" />
+
+</div>
+
+---
+
+## 📊 **Coding Activity & Stats**
+
+<div align="center">
+
+### **Weekly Development Breakdown**
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+**💻 Total Commits**  
+![](https://img.shields.io/badge/dynamic/json?color=blue&label=Total&query=commits&url=https://api.github.com/users/EverbestDev&style=for-the-badge)
+
+</td>
+<td align="center" width="33%">
+
+**📦 Repositories**  
+![](https://img.shields.io/badge/dynamic/json?color=green&label=Public&query=public_repos&url=https://api.github.com/users/EverbestDev&style=for-the-badge)
+
+</td>
+<td align="center" width="33%">
+
+**⭐ Stars Earned**  
+![](https://img.shields.io/github/stars/EverbestDev?style=for-the-badge&color=yellow)
+
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -286,30 +391,76 @@ mindmap
 
 ## 💡 **Development Philosophy**
 
-> **"Code is like humor. When you have to explain it, it's bad."** – Cory House
+<div align="center">
+
+> **"Any fool can write code that a computer can understand. Good programmers write code that humans can understand."** – Martin Fowler
+
+</div>
 
 <table>
 <tr>
-<td width="33%" align="center">
+<td width="25%" align="center">
 
 ### 🎯 **Quality First**
 Writing clean, maintainable code that stands the test of time
 
 </td>
-<td width="33%" align="center">
+<td width="25%" align="center">
 
 ### 🚀 **User-Centric**
 Building solutions that prioritize user experience and accessibility
 
 </td>
-<td width="33%" align="center">
+<td width="25%" align="center">
 
 ### 📚 **Continuous Learning**
 Staying updated with latest technologies and best practices
 
 </td>
+<td width="25%" align="center">
+
+### 🤝 **Collaboration**
+Open source contribution and knowledge sharing
+
+</td>
 </tr>
 </table>
+
+---
+
+## 🎨 **Skills Visualization**
+
+<div align="center">
+
+### **Proficiency Levels**
+
+```text
+React       ████████████████████░   95%
+JavaScript  ███████████████████░░   90%
+Node.js     ██████████████████░░░   85%
+MongoDB     █████████████████░░░░   80%
+TypeScript  ████████████████░░░░░   75%
+Express     ████████████████░░░░░   75%
+TailwindCSS ███████████████░░░░░░   70%
+Git/GitHub  ██████████████████░░░   85%
+```
+
+</div>
+
+---
+
+## 📚 **Latest Blog Posts**
+
+<div align="center">
+
+<!-- BLOG-POST-LIST:START -->
+- 🚀 Building Scalable MERN Applications
+- 🔐 Implementing JWT Authentication Best Practices
+- ⚡ React Performance Optimization Tips
+- 🎨 Modern CSS Techniques for 2025
+<!-- BLOG-POST-LIST:END -->
+
+</div>
 
 ---
 
@@ -319,35 +470,67 @@ Staying updated with latest technologies and best practices
 
 <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" alt="Fire" width="100" />
 
-I'm always open to interesting conversations and collaboration opportunities!
+### I'm always open to interesting conversations and collaboration opportunities!
 
 <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
 
 <table>
 <tr>
-<td align="center" width="33%">
+<td align="center" width="25%">
 
 ### 📧 **Email**
 [theeverbeststudios@gmail.com](mailto:theeverbeststudios@gmail.com)
 
 </td>
-<td align="center" width="33%">
+<td align="center" width="25%">
 
 ### 💼 **LinkedIn**
 [Everbest Studios](https://linkedin.com/in/everbest-studios)
 
 </td>
-<td align="center" width="33%">
+<td align="center" width="25%">
 
 ### 🐙 **GitHub**
 [@EverbestDev](https://github.com/EverbestDev)
+
+</td>
+<td align="center" width="25%">
+
+### 🐦 **Twitter**
+[@EverbestDev](https://twitter.com/EverbestDev)
 
 </td>
 </tr>
 </table>
 
 ### **Open to:**
-✨ Freelance Projects | 💼 Full-Time Opportunities | 🤝 Open Source Collaboration | 📖 Tech Discussions
+✨ Freelance Projects | 💼 Full-Time Opportunities | 🤝 Open Source Collaboration | 📖 Tech Discussions | 🎤 Speaking Engagements
+
+### **Support My Work:**
+
+<a href="https://www.buymeacoffee.com/everbestdev">
+  <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee"/>
+</a>
+
+</div>
+
+---
+
+## 🎮 **Fun Zone**
+
+<div align="center">
+
+### **GitHub Snake Game**
+
+![snake gif](https://github.com/EverbestDev/EverbestDev/blob/output/github-contribution-grid-snake.svg)
+
+### 💭 **Dev Quote**
+
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+
+### 🎲 **Random Dev Joke**
+
+![Jokes Card](https://readme-jokes.vercel.app/api?theme=tokyonight)
 
 </div>
 
@@ -355,14 +538,28 @@ I'm always open to interesting conversations and collaboration opportunities!
 
 <div align="center">
 
-### 💭 **Quote of the Day**
+### 📝 **Quick Tips**
 
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+💡 **Did you know?** You can press `.` on any GitHub repo to open it in VS Code Web!  
+💡 **Pro tip:** Use `git commit --amend` to modify your last commit message!  
+💡 **Shortcut:** Press `t` in any repo to quickly search for files!
 
 ---
 
-**✨ Thanks for visiting! Feel free to star ⭐ my repositories if you find them interesting!**
+### 🎯 **2025 Contribution Goals**
+
+![](https://img.shields.io/badge/Target-500%20Contributions-brightgreen?style=for-the-badge)
+![](https://img.shields.io/badge/Open%20Source-10%20Projects-blue?style=for-the-badge)
+![](https://img.shields.io/badge/Blog%20Posts-20%20Articles-orange?style=for-the-badge)
+
+---
+
+**✨ Thanks for visiting! Feel free to explore my repositories and star ⭐ the ones you find interesting!**
+
+**💬 Let's build something amazing together!**
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
+
+**Last Updated:** January 2025 | **Profile Views:** ![](https://komarev.com/ghpvc/?username=EverbestDev&color=blueviolet)
 
 </div>
