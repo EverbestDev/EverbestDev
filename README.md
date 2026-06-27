@@ -1,10 +1,12 @@
+
+```markdown
 <div align="center">
 
 ```
 ╔══════════════════════════════════════════════╗
 ║           EverbestDev                        ║
 ║           Full-Stack Engineer · Nigeria 🇳🇬   ║
-║           MERN Stack · Web Security · Cloud  ║
+║      React 19 · Node.js · TypeScript · Cloud ║
 ╚══════════════════════════════════════════════╝
 ```
 
@@ -21,12 +23,12 @@
 
 ```js
 const EverbestDev = {
-  role:      "Full-Stack Developer",
-  stack:     ["React", "Node.js", "Express", "MongoDB"],
-  languages: ["JavaScript", "TypeScript"],
-  currently: ["Docker", "Cloud Architecture", "Microservices"],
+  role:      "Full-Stack Engineer",
+  stack:     ["React 19", "Node.js", "TypeScript", "Tailwind v4", "Zustand", "Express", "MongoDB"],
+  languages: ["JavaScript", "TypeScript", "HTML5", "CSS3"],
+  currently: ["Docker & Containerization", "Microservices", "Cloud Native Architectures"],
   location:  "Nigeria 🇳🇬  (WAT, GMT+1)",
-  openTo:    ["Freelance", "Full-Time", "Open Source"],
+  openTo:    ["Freelance", "Full-Time", "Open Source Collaborations"],
 };
 ```
 
@@ -34,16 +36,16 @@ Building scalable, maintainable web applications — with a focus on clean archi
 
 ---
 
-## Stack
+## Stack & Ecosystem
 
-**Frontend**
-`React` `Redux` `TypeScript` `Tailwind CSS` `SASS` `HTML5`
+**Frontend & Styling**
+`React 19` `TypeScript` `Tailwind CSS v4` `Zustand` `Radix UI` `Recharts` `Redux Toolkit` `SASS`
 
 **Backend & Data**
-`Node.js` `Express` `MongoDB` `Mongoose` `JWT` `Socket.io` `REST`
+`Node.js` `Express` `MongoDB` `Mongoose` `Zod (Validation)` `RESTful APIs` `JWT Auth` `Socket.io`
 
-**Tooling & Deployment**
-`Git` `Vite` `Webpack` `Postman` `Vercel` `Netlify` `Figma`
+**Tooling, Bundlers & Deployment**
+`Vite 8` `Git & GitHub` `Docker` `Webpack` `Vercel` `Netlify` `Postman`
 
 ---
 
@@ -60,11 +62,13 @@ Building scalable, maintainable web applications — with a focus on clean archi
 
 ## 2025 Roadmap
 
-- [x] React performance optimization & advanced patterns  
-- [x] Production-ready REST API design  
-- [ ] Microservices & event-driven architecture  
-- [ ] Docker + Kubernetes containerization  
-- [ ] GraphQL integration  
+- [x] React 19 Concurrent Features & Performance  
+- [x] TypeScript Architecture & Type Safety  
+- [x] Modern State Management (Zustand) & Validation (Zod)  
+- [x] Tailwind CSS v4 compiler setup  
+- [ ] Microservices & Event-Driven Architecture  
+- [ ] Docker + Kubernetes Containerization  
+- [ ] GraphQL Integration  
 - [ ] AWS / Azure cloud deployment  
 - [ ] CI/CD pipelines with GitHub Actions  
 - [ ] Redis caching & message queues (RabbitMQ / Kafka)  
@@ -89,3 +93,4 @@ Building scalable, maintainable web applications — with a focus on clean archi
 **→ Always open to interesting problems. Let's build.**
 
 </div>
+```
