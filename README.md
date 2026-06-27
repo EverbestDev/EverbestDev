@@ -1,5 +1,3 @@
-
-```markdown
 <div align="center">
 
 ```
@@ -93,4 +91,3 @@ Building scalable, maintainable web applications — with a focus on clean archi
 **→ Always open to interesting problems. Let's build.**
 
 </div>
-```
